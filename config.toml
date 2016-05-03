@@ -22,13 +22,11 @@ googleAnalytics = ""
 
     [params.product]
         enable = true
-        title = "Put FAQs on Autopilot"
-        subtitle = "Employees can self-serve with FAQ answers from **@luno** instead of bugging you"
+        title = "Employees can self-serve with FAQ answers from **@luno** instead of bugging you."
 
     [params.setup]
         enable = true
-        title = "Get started in less than 10 minutes"
-        subtitle = "We've made setting up Luno simple so you can get back to what you do best."
+        title = "Launch your Lunobot in less than 15 minutes."
 
         [[params.setup.row]]
 

@@ -3,13 +3,11 @@
     <head>
         {{ partial "head.html" . }}
     </head>
-    <body id="page-top" class="index">
+    <body class="bg-light-gray">
         {{ partial "nav.html" . }}
         {{ .Content }}
-        {{ if .Site.Params.footer.enable }}
-            {{ partial "footer.html" . }}
-        {{ end }}
 
+        {{ partial "footer.html" . }}
         {{ partial "js.html" . }}
     </body>
 </html>
