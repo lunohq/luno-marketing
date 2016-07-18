@@ -176,6 +176,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: sofia,"Helvetica Neue",Helvetica,Arial,cursive;
     color: white;
+    font-size: 24px;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -251,7 +252,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 36px;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -264,10 +265,6 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink {
         padding: 10px 0;
         background-color: #484959;
-    }
-
-    .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
     }
 
     .navbar-default .navbar-collapse {
