@@ -337,7 +337,6 @@ header {
 header .intro-text {
     padding-top: 140px;
     padding-bottom: 50px;
-    min-height: 500px;
 }
 
 header .intro-text .intro-lead-in {
@@ -404,6 +403,47 @@ section .section-heading strong {
     max-width: 800px;
     object-fit: scale-down;
     width: 100%;
+}
+
+.pricing {
+    background-color: white;
+    margin: 5px;
+    padding: 20px 10px;
+}
+
+.pricing ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.pricing ul.plan-details {
+    height: 120px;
+}
+
+.pricing ul li {
+    height: 30px;
+}
+
+.plan-details li span.detail-label {
+    float: left;
+}
+
+.plan-details li span.detail-value {
+    float: right;
+}
+
+.plan-features li span {
+    float: left;
+}
+
+.plan-features li span.enabled {
+    font-weight: 400;
+}
+
+.plan-features li span.disabled {
+    font-weight: 200;
+    color: #616166;
 }
 
 footer {
