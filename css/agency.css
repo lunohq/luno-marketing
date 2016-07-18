@@ -230,6 +230,18 @@ fieldset[disabled] .btn-xl.active {
     background-color: #00bcd4;
 }
 
+.nav li.strong-link a {
+    font-weight: 400;
+}
+
+.nav li.selected-link {
+  box-shadow: 0 3px 0 0 #fff;
+}
+
+.nav li.selected-link a {
+    font-weight: 600;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 10px 0;
@@ -424,13 +436,4 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0;
-}
-
-.nav li.strong-link a {
-    font-weight: 400;
-}
-
-.nav li.selected-link a {
-    color: #00bcd4;
-    font-weight: 600;
 }
