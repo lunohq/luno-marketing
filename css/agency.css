@@ -215,7 +215,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:focus {
     outline: 0;
     color: #00bcd4;
-    font-weight: 400;
 }
 
 .nav li.strong-link a {
