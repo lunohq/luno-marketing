@@ -405,23 +405,27 @@ section .section-heading strong {
     width: 100%;
 }
 
-.pricing {
+.pricing-plan {
+    padding: 0;
+}
+
+.pricing-plan .plan-container {
     background-color: white;
     margin: 5px;
     padding: 20px 10px;
 }
 
-.pricing ul {
+.plan-container ul {
     list-style: none;
     margin-top: 20px;
     padding: 0;
 }
 
-.pricing ul.plan-details {
+.plan-container ul.plan-details {
     height: 120px;
 }
 
-.pricing ul li {
+.plan-container ul li {
     height: 30px;
 }
 
