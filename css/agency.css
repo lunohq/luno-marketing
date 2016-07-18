@@ -224,8 +224,8 @@ fieldset[disabled] .btn-xl.active {
 
 .nav li.selected-link a,
 .nav li.selected-link a:hover,
-.nav li.selected-link a:focus,
- {
+.nav li.selected-link a:focus
+{
     color: #00bcd4;
     font-weight: 600;
 }
