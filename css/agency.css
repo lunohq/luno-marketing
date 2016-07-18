@@ -427,6 +427,11 @@ footer ul.quicklinks {
     line-height: 40px;
 }
 
+footer ul.quicklinks a {
+  color: #000000;
+  font-weight: 300;
+}
+
 .btn:focus,
 .btn:active,
 .btn.active,
