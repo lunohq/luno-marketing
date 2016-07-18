@@ -234,10 +234,6 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 400;
 }
 
-.nav li.selected-link {
-  box-shadow: 0 3px 0 0 #fff;
-}
-
 .nav li.selected-link a {
     font-weight: 600;
 }
