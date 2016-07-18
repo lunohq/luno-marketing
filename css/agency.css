@@ -215,6 +215,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:focus {
     outline: 0;
     color: #00bcd4;
+    font-weight: 400;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -427,4 +428,9 @@ img::-moz-selection {
 
 .nav li.strong-link a {
     font-weight: 400;
+}
+
+.nav li.selected-link a {
+    color: #00bcd4;
+    font-weight: 600;
 }
