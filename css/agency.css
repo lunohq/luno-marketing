@@ -484,7 +484,6 @@ section .section-heading strong {
     font-weight: 600;
 }
 
-
 .plan-details li span.detail-label {
     float: left;
 }
@@ -492,6 +491,14 @@ section .section-heading strong {
 .plan-details li span.detail-value {
     float: right;
     color: #00bcd4;
+}
+
+.plan-features li.features-label {
+    border: none;
+    color: #00bcd4;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
 }
 
 .plan-features li span {
