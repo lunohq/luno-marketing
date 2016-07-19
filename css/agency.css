@@ -505,13 +505,25 @@ section .section-heading strong {
     float: left;
 }
 
-.plan-features li span.enabled {
+.plan-features li span i {
+    padding: 0 8px;
+}
+
+.plan-features li.enabled span {
     font-weight: 400;
 }
 
-.plan-features li span.disabled {
+.plan-features li.disabled span {
     font-weight: 200;
     color: #616166;
+}
+
+.plan-features li.enabled span i {
+    color: #00bcd4;
+}
+
+.plan-features li.disabled span i {
+    visibility: hidden;
 }
 
 footer {
