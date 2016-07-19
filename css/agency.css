@@ -468,12 +468,22 @@ section .section-heading strong {
 }
 
 .plan-container ul.plan-details {
-    height: 120px;
+    height: 160px; /* 4 x the height of each list item */
 }
 
 .plan-container ul li {
-    height: 30px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.3);
+    color: #616166;
+    font-weight: 400;
+    height: 40px;
+    line-height: 40px;
 }
+
+.plan-container ul li.primary-plan-details {
+    font-size: 16px;
+    font-weight: 600;
+}
+
 
 .plan-details li span.detail-label {
     float: left;
@@ -481,6 +491,7 @@ section .section-heading strong {
 
 .plan-details li span.detail-value {
     float: right;
+    color: #00bcd4;
 }
 
 .plan-features li span {
