@@ -67,11 +67,14 @@ h6 {
     background-color: #222;
 }
 
+.btn-lg {
+    padding: 10px 30px;
+}
+
 .btn-primary {
-    border-color: #00bcd4;
-    text-transform: uppercase;
+    border: none;
     font-family: "Lato",sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     color: #fff;
     background-color: #00bcd4;
 }
@@ -81,7 +84,7 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
+    border: none;
     color: #fff;
     background-color: #00bcd4;
 }
@@ -107,8 +110,9 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #00bcd4;
+    border: none;
     background-color: #00bcd4;
+    border: no
 }
 
 .btn-primary .badge {
@@ -118,7 +122,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #00bcd4;
+    border: none;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: "Lato",sans-serif;
@@ -133,7 +137,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
+    border: none;
     color: #fff;
     background-color: #00bcd4;
 }
@@ -159,7 +163,7 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #00bcd4;
+    border: none;
     background-color: #00bcd4;
 }
 
@@ -415,22 +419,51 @@ section .section-heading strong {
     background-color: rgba(255, 255, 255, .88);
     border-radius: 6px;
     margin: 12px;
-    padding: 20px;
-}
-
-.pricing-plan h4 {
-    height:
+    padding: 25px;
 }
 
 .pricing-plan .popular {
     background-color: rgba(255, 255, 255, 1);
     margin: 0 0 5px 0;
-    padding-top: 32px;
+    padding-top: 23px;
+}
+
+.pricing-plan h4 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.pricing-plan .popular h4 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.pricing-plan h3 {
+    color: #00bcd4;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.pricing-plan .popular h3 {
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.pricing-plan a.btn-lg {
+    margin: 2px 0;
+}
+
+.pricing-plan .popular a.btn-lg {
+    font-size: 21px;
+    margin: 0;
+    text-transform: uppercase;
 }
 
 .plan-container ul {
     list-style: none;
-    margin-top: 20px;
+    margin: 30px 0;
     padding: 0;
 }
 
@@ -494,6 +527,7 @@ footer ul.quicklinks a {
 .btn.active,
 .btn:active:focus {
     outline: 0;
+    box-shadow: none;
 }
 
 img::selection {
