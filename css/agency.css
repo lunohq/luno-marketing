@@ -412,9 +412,20 @@ section .section-heading strong {
 }
 
 .pricing-plan .plan-container {
-    background-color: white;
-    margin: 5px;
-    padding: 20px 10px;
+    background-color: rgba(255, 255, 255, .88);
+    border-radius: 6px;
+    margin: 12px;
+    padding: 20px;
+}
+
+.pricing-plan h4 {
+    height:
+}
+
+.pricing-plan .popular {
+    background-color: rgba(255, 255, 255, 1);
+    margin: 0 0 5px 0;
+    padding-top: 32px;
 }
 
 .plan-container ul {
