@@ -529,6 +529,10 @@ section .section-heading strong {
     padding: 0 30px;
 }
 
+#privacy .container .row h2.section-heading {
+    margin: 10px 0;
+}
+
 footer {
     padding: 25px 0;
     text-align: center;
