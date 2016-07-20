@@ -1,5 +1,5 @@
 # luno-marketing
-Marketing page for lunobot
+Marketing page for Luno bot
 
 # Deploying
 
