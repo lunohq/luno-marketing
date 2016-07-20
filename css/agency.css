@@ -317,7 +317,7 @@ h3 {
 }
 
 .pt {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .add-to-slack {
@@ -389,7 +389,7 @@ section {
 section h2.section-heading {
     text-transform: none;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     font-size: 30px;
     font-weight: 300;
 }
@@ -405,8 +405,8 @@ section .section-heading strong {
 }
 
 .demo-img {
-    max-width: 800px;
-    object-fit: scale-down;
+    max-width: 640px;
+    padding: 10px;
     width: 100%;
 }
 
@@ -523,6 +523,10 @@ section .section-heading strong {
 
 .plan-features li.disabled span i {
     visibility: hidden;
+}
+
+#pricing-faqs .container .row .col-md-6 {
+    padding: 0 30px;
 }
 
 footer {
