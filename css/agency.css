@@ -584,7 +584,9 @@ img::-moz-selection {
     margin: 53px 3px 3px 3px;
 }
 
-.orgorg-offer h2, h3, p {
+.orgorg-offer h2,
+.orgorg-offer h3,
+.orgorg-offer p {
     color: white;
     margin: 10px 0;
 }
