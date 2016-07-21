@@ -574,3 +574,42 @@ img::selection {
 img::-moz-selection {
     background: 0 0;
 }
+
+/* Special section for OrgOrg promo */
+.orgorg-offer section {
+    background-color: #00bcd4;
+    border: 2px dashed white;
+    box-shadow: 0 0 0 3px #00bcd4;
+    padding: 20px;
+    margin: 53px 3px 3px 3px;
+}
+
+.orgorg-offer h2, h3, p {
+    color: white;
+    margin: 10px 0;
+}
+
+.orgorg-offer h2 {
+    font-weight: 600;
+}
+
+.orgorg-offer h3 {
+    font-weight: 400;
+}
+
+.orgorg-offer .btn {
+    background-color: #ff4081;
+    border: 2px solid white;
+    margin-top: 8px;
+    white-space: normal;
+}
+
+.orgorg-offer .intro-text {
+    padding-top: 70px;
+}
+
+@media(min-width:768px) {
+    .orgorg-offer section {
+        margin-top: 73px;
+    }
+}
