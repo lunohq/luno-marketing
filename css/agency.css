@@ -324,6 +324,10 @@ h3 {
     margin: 20px 0px;
 }
 
+.add-to-slack:active {
+    transform: translateY(2px);
+}
+
 header {
     text-align: center;
     color: #fff;
@@ -565,6 +569,10 @@ footer ul.quicklinks a {
 .btn:active:focus {
     outline: 0;
     box-shadow: none;
+}
+
+.btn:active {
+    transform: translateY(2px);
 }
 
 img::selection {
