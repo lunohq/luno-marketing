@@ -66,7 +66,9 @@
                             <a href="/faq/">FAQ</a>
                         </li>
                         <li class="strong-link">
-                            <a href="https://app.lunohq.com/login">Sign in</a>
+                            <a href="https://app.lunohq.com/login" onClick="ga('send', 'event', 'sign-in', 'sign-in', 'pricing-nav-bar');">
+                                Sign in
+                            </a>
                         </li>
 
                     </ul>
@@ -100,7 +102,9 @@
                 <div class="plan-container">
                     <h4 class="plan">Starter</h4>
                     <h3>Free</h3>
-                    <a href="https://app.lunohq.com/login"class="btn btn-lg btn-primary">Sign Up</a>
+                    <a href="https://app.lunohq.com/login" onClick="ga('send','event','sign-ups','select-plan','starter-free');" class="btn btn-lg btn-primary">
+                        Sign Up
+                    </a>
                 <!-- Starter Plan Details -->
                     <ul class="plan-details">
                         <li class="primary-plan-details">
@@ -176,7 +180,9 @@
                 <div class="plan-container popular">
                     <h4>Pro</h4>
                     <h3>$100/mo</h3>
-                    <a href="https://app.lunohq.com/login"class="btn btn-lg btn-primary">Start Free Trial</a>
+                    <a href="https://app.lunohq.com/login" onClick="ga('send','event','sign-ups','select-plan','pro-$100');" class="btn btn-lg btn-primary">
+                        Start Free Trial
+                    </a>
                 <!-- Pro Plan Details -->
                     <ul class="plan-details">
                         <li class="primary-plan-details">
@@ -252,7 +258,9 @@
                 <div class="plan-container">
                     <h4>Enterprise</h4>
                     <h3>Custom</h3>
-                    <a href="mailto:sales@lunohq.com?subject=Luno Enterprise Plan Price Quote" target="_blank" class="btn btn-lg btn-primary">Request Quote</a>
+                    <a href="mailto:sales@lunohq.com?subject=Luno Enterprise Plan Price Quote" target="_blank" onClick="ga('send','event','sign-ups','select-plan','enterprise-get-quote');" class="btn btn-lg btn-primary">
+                        Request Quote
+                    </a>
                 <!-- Enterprise Plan Details -->
                     <ul class="plan-details">
                         <li class="primary-plan-details">
@@ -387,7 +395,7 @@
                     <img height="28px" src="img/emoji-hand-point-down.png" />
                     Click this button to install your Luno bot today.
                 </h3>
-                <a href="https://app.lunohq.com/login">
+                <a href="https://app.lunohq.com/login" onClick="ga('send','event','sign-ups','add-to-slack','pricing-bottom');">
                         <img
                             alt="Add to Slack"
                             class="add-to-slack"
