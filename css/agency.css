@@ -558,9 +558,15 @@ footer ul.quicklinks {
     line-height: 40px;
 }
 
-footer ul.quicklinks a {
+footer ul.quicklinks a,
+footer ul.quicklinks a:focus,
+footer ul.quicklinks a:active,
+footer ul.quicklinks a.active,
+footer ul.quicklinks a:active:focus
+ {
   color: #000000;
   font-weight: 300;
+  text-decoration: none;
 }
 
 .btn:focus,
