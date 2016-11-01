@@ -585,10 +585,9 @@ img::-moz-selection {
 
 /* Special section for OrgOrg promo */
 .orgorg-offer section {
-    background-color: #00bcd4;
-    border: 2px dashed white;
-    box-shadow: 0 0 0 3px #00bcd4;
-    padding: 20px;
+    background-color: #ff4081;
+    box-shadow: 0 0 0 3px #ff4081;
+    padding: 15px;
     margin: 53px 3px 3px 3px;
 }
 
@@ -596,7 +595,8 @@ img::-moz-selection {
 .orgorg-offer h3,
 .orgorg-offer p {
     color: white;
-    margin: 10px 0;
+    margin: 5px 0;
+    font-weight: 400;
 }
 
 .orgorg-offer h2 {
@@ -608,7 +608,7 @@ img::-moz-selection {
 }
 
 .orgorg-offer .btn {
-    background-color: #ff4081;
+    background-color: #00bcd4;
     border: 2px solid white;
     margin-top: 8px;
     white-space: normal;
